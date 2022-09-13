@@ -67,11 +67,7 @@ render() {
                     </div>
                     <div className="col-lg-6" id="quote-form">
                         <div className="become-teacher__form">
-                            <div className="become-teacher__form-top">
-                                <h2 className="become-teacher__form-title">
-                                    Get Free Quote
-                                </h2>
-                            </div>
+                            
                             <form 
                                   className="become-teacher__form-content contact-form-validated"
                                   name="get-a-quote"
@@ -91,7 +87,7 @@ render() {
                                 </label>
                                 </div>
 
-
+                                <label class="label" for="name">NAME</label>
                                 <input
                                     className="input"
                                     type={"text"}
@@ -99,10 +95,9 @@ render() {
                                     onChange={this.handleChange}
                                     id={"name"}
                                     required={true}
-                                    placeholder="Name"
                                 />
 
-
+                                <label class="label" for="email">E-MAIL</label>
                                 <input
                                     className="input"
                                     type={"email"}
@@ -110,9 +105,9 @@ render() {
                                     onChange={this.handleChange}
                                     id={"email"}
                                     required={true}
-                                    placeholder="Email"
                                 />
 
+                                <label class="label" for="phone">PHONE</label>
                                 <input
                                     className="input"
                                     type={"phone"}
@@ -120,15 +115,39 @@ render() {
                                     onChange={this.handleChange}
                                     id={"phone"}
                                     required={true}
-                                    placeholder="Phone Number"
+                                />
+
+                                <label class="label" for="diagnosis">DIAGNOSIS</label>
+                                <input
+                                    className="input"
+                                    type={"diagnosis"}
+                                    name={"diagnosis"}
+                                    onChange={this.handleChange}
+                                    id={"diagnosis"}
+                                    required={true}
                                 />
 
                                 <input type="hidden" name="url" value={`${this.state.url}`}/>
 
-                                <button type="submit" className="thm-btn become-teacher__form-btn">
+
+
+                                
+                                <label class="become-teacher__form-agree">
+                        
+                                <input type="checkbox" name="agree"/>
+                                
+                                <span class="become-teacher__form-agree-checkbox">
+                                <i className="fa fa-check"></i>
+                                </span>
+                                <span class="become-teacher__form-agree-text">I agree to the <a href="https://heallo.co.uk/term-of-use">Terms of Use</a> and <a href="https://heallo.co.uk/privacy-policy">Privacy Policy</a>.</span>
+                                </label>
+                                
+
+
+                                <button type="submit" className="become-teacher__form-btn">
                                     {
                                         this.state.isLoading ? (<><span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                                        <span class="sr-only">Loading...</span></>) : "Apply For It"
+                                        <span class="sr-only">Loading...</span></>) : "GET CONSULTATION"
                                     }
                                 </button>
                             </form>

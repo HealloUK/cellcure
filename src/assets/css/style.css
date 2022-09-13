@@ -2860,19 +2860,28 @@ a:visited {
   padding-right: 60px;
   padding-top: 60px;
   padding-bottom: 60px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 30px rgb(124 10 31 / 10%);
+  -moz-box-shadow: 0px 10px 30px rgba(124, 10, 31, 0.1);
+  box-shadow: 0px 10px 30px rgb(124 10 31 / 10%);
 }
 .become-teacher__form input {
   border: none;
   outline: none;
   width: 100%;
-  background-color: #f1f1f1;
-  height: 77px;
+  border: 1px solid #e1dbdb;
+  min-height: 50px;
   font-size: 16px;
   color: #81868a;
   font-weight: 500;
-  padding-left: 40px;
+  padding: 8px 16px;
   display: block;
   margin-bottom: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 .become-teacher__form input::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
@@ -2891,17 +2900,101 @@ a:visited {
   color: #81868a;
 }
 .become-teacher__form label {
-  display: block;
+  font-size: 14px;
+  font-weight: 600;
 }
 .become-teacher__form-btn {
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 15px;
+  font-weight: 700;
   color: #fff;
-  padding: 21.5px 58px;
+  background-color: #012237;
+  padding: 12px 24px;
+  -webkit-appearance: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border-color: #012237;
+  border-style: solid;
+  min-width: 200px;
+  line-height: 22px;
+  margin-top: 20px;
 }
 .become-teacher__form-btn:hover {
-  background-color: #012237;
+  background-color: #063452;
+  border-color: #063452;
   color: #fff;
+}
+
+.become-teacher__form-agree {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: -webkit-inline-flex;
+    display: -moz-inline-box;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    -webkit-align-items: flex-start;
+    -moz-box-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.become-teacher__form-agree input {
+  display: none;
+}
+
+.become-teacher__form-agree-checkbox {
+    min-width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background: rgb(221, 214, 230);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    justify-content: center;
+}
+
+.become-teacher__form-agree-checkbox i {
+    width: 10px;
+    height: 9px;
+    opacity: 0;
+}
+
+.become-teacher__form-agree input:checked ~ .become-teacher__form-agree-checkbox i {
+  opacity: 1;
+  }
+
+.become-teacher__form-agree-text {
+    display: block;
+    width: -webkit-calc(100% - 30px);
+    width: -moz-calc(100% - 30px);
+    width: calc(100% - 30px);
+    font-size: 14px;
+    line-height: 150%;
+    color: rgba(80, 12, 24, 0.5);
 }
 
 .become-teacher__title {
