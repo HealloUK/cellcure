@@ -4,7 +4,7 @@ import NavOne from "../components/NavOne";
 import { getImage } from "gatsby-plugin-image"
 import Footer from "../components/Footer";
 import CourseDetails from "../components/CourseDetails";
-import CourseCatOne from "../components/CourseCatOne";
+import ApplicationForm from "../components/ApplicationForm";
 import TopCourses from "../components/TopCourses";
 import { graphql } from 'gatsby';
 
@@ -21,7 +21,7 @@ const CoursesPage = ({ data }) => {
       >
             <NavOne />
             <CourseDetails details= {post.frontmatter}/>
-            <CourseCatOne />
+            <ApplicationForm />
             <br/><br/>
             <TopCourses />
             <Footer />

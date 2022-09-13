@@ -5,7 +5,7 @@ import NavOne from "../components/NavOne";
 import AboutTwo from "../components/AboutTwo";
 import TopCourses from "../components/TopCourses";
 import BlogThree from "../components/BlogThree";
-import CourseCatOne from "../components/CourseCatOne";
+import ApplicationForm from "../components/ApplicationForm";
 import Footer from "../components/Footer";
 
 
@@ -17,9 +17,9 @@ const HomePage = () => (
     <TopbarOnlyText />
     <NavOne />
     <AboutTwo />
+    <ApplicationForm />
     <TopCourses />
     <BlogThree />
-    <CourseCatOne />
     <Footer />
   </Layout>
 );

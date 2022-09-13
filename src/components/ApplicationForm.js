@@ -1,8 +1,8 @@
 import React from "react";
-import BecomeTeacher from "../components/BecomeTeacher";
+import BecomeTeacher from "./BecomeTeacher";
 
 
-const CourseCatOne = () => {
+const ApplicationForm = () => {
   
 
   return (
@@ -13,4 +13,4 @@ const CourseCatOne = () => {
     </section>
   );
 };
-export default CourseCatOne;
+export default ApplicationForm;

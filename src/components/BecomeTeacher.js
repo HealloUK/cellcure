@@ -44,20 +44,25 @@ render() {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="become-teacher__content">
-                            <h2 className="become-teacher__title">About Heallo</h2>
-                            <p className="become-teacher__text">We connect patients our trusted doctors, clinics, hospitals. 
-                            We have a wide range of services and treatments for you to choose from all at an affordable price.</p>
-                            <h2 className="become-teacher__subtitle">Experienced team of Professionals</h2>
-                            <p className="become-teacher__text">We are dedicated to helping our clients look and feel their best. 
-Our experienced team of professionals will work with you to create a personalized treatment plan that meets your needs and fits your budget.</p>
-                            <h2 className="become-teacher__subtitle">Perfect Journey</h2>
-                            <p className="become-teacher__text">We design every step of your medical journey from the moment you 
-leave your home to the moment you return home.
+                            
 
-Our team is passionate about providing excellent customer service 
-and we are dedicated to ensuring that you have wonderful experience.
+                            <h2 className="become-teacher__title">Get a free online consultation with a medical adviser</h2>
+                            <p className="become-teacher__text">Fill out the form to discuss the disease and treatment options with an expert! 
+                            You’ll be contacted by a Medical Adviser who will collect information for the doctor and answer your basic questions.
+                            </p>
 
-Contact us today to schedule a consultation!</p>
+                            <p className="become-teacher__text">
+                            Based on your medical reports, the doctors will assess whether you’re a candidate for the therapy. They will consider:
+                            </p>
+
+                            <ul class="become-teacher__list">
+                            <li>Whether stem cell therapy will be effective in your specific case?</li>
+                            <li>What the treatment involves?</li>
+                            <li>How much does it cost?</li>
+                            </ul>
+
+                            
+                            
                         </div>
                     </div>
                     <div className="col-lg-6" id="quote-form">

@@ -3,7 +3,7 @@ import Layout from "../../components/Layout";
 import NavOne from "../../components/NavOne";
 import Footer from "../../components/Footer";
 import StemTexts from '../../components/StemTexts';
-import CourseCatOne from '../../components/CourseCatOne';
+import ApplicationForm from '../../components/ApplicationForm';
 
 
 const AboutPage = () => {
@@ -14,7 +14,7 @@ const AboutPage = () => {
       >
             <NavOne decor="none" />
             <StemTexts />
-            <CourseCatOne />
+            <ApplicationForm />
             <Footer />
         </Layout>
     );
