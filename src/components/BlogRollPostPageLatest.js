@@ -36,7 +36,7 @@ class BlogRollPostPageLatestTemplate extends React.Component {
                     </div>
                     <div className="sidebar__post-content">
                       <h4 className="sidebar__post-title">
-                        <Link to={post.fields.slug}>
+                        <Link to={post.frontmatter.path ? `/${post.frontmatter.path}` : post.fields.slug}>
                           {post.frontmatter.title}
                         </Link>
                       </h4>
@@ -64,9 +64,9 @@ export default function BlogRollPostPageLatest() {
       query={graphql`
         query BlogRollPostPageLatestQuery {
           allMarkdownRemark(
-            limit: 5
+            limit: 3
             sort: { order: DESC, fields: [frontmatter___date] }
-            filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+            filter: { frontmatter: { templateKey: { eq: "blog-post" }, type: { ne: "disease" } } }
           ) {
             edges {
               node {
@@ -80,6 +80,7 @@ export default function BlogRollPostPageLatest() {
                   date(formatString: "MMMM DD, YYYY")
                   featuredpost
                   tags
+                  path
                   featuredimage {
                     childImageSharp {
                       gatsbyImageData(

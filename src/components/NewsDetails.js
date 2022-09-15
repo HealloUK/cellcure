@@ -10,8 +10,8 @@ import BlogRollPostPageLatest from "./BlogRollPostPageLatest";
 const NewsDetails = ({
   content,
   contentComponent,
-  description,
   tags,
+  type,
   title,
   group
 }) => {
@@ -21,6 +21,13 @@ const NewsDetails = ({
   return (
     <section className="blog-details">
       <div className="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><Link to="/">Home</Link></li>
+            <li class="breadcrumb-item"><Link href={type == "disease" ? "/diseases" : "/blog"}>{type == "disease" ? "Diseases" : "Blog"}</Link></li>
+            <li class="breadcrumb-item active" aria-current="page">{title}</li>
+          </ol>
+        </nav>
         <div className="row">
           <div className="col-lg-8">
             <div className="blog-one__single">
@@ -30,8 +37,6 @@ const NewsDetails = ({
                 <h2 className="blog-one__title text-center">
                     {title}
                 </h2>
-
-                <p>{description}</p>
                 
                 <PostContent content={content} />
                 
@@ -71,7 +76,7 @@ const NewsDetails = ({
             <div className="sidebar">
             
               <div className="sidebar__single sidebar__post">
-                <h3 className="sidebar__title">Latest News</h3>
+                <h3 className="sidebar__title">Suggested:</h3>
                 <div className="sidebar__post-wrap">
                   
                   <BlogRollPostPageLatest/>

@@ -27,7 +27,7 @@ const TopCourses = () => {
               <img width="47" height="48" src="https://heallo.co.uk/wp-content/uploads/2021/03/1.png" class="attachment-photo-thumb size-photo-thumb webpexpress-processed" alt="Digestive System" loading="lazy" />                           
               <h2 class="disease__item-title">Musculoskeletal disorders</h2>
               <ul class="disease__item-list">
-                <li><span>Sports-related injuries</span></li>
+                <li><a href="/disease-1">Sports-related injuries</a></li>
                 <li><span>Athletic performance improvement</span></li>
                 <li><span>Stem Cell Treatment for Fibromyalgia</span></li>
                 <li><span>Chronic Fatigue Syndrome Treatment with Stem Cells</span></li>

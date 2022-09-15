@@ -19,6 +19,7 @@ exports.createPages = ({ actions, graphql }) => {
               tags
               templateKey
               path
+              type
             }
           }
         }

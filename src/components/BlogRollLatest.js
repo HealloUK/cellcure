@@ -38,7 +38,7 @@ export default function BlogRollLatest() {
           allMarkdownRemark(
             limit: 6
             sort: { order: DESC, fields: [frontmatter___date] }
-            filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+            filter: { frontmatter: { templateKey: { eq: "blog-post" }, type: { ne: "disease" } } }
           ) {
             edges {
               node {

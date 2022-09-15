@@ -32,7 +32,7 @@ query NewsPageQuery($skip: Int!, $limit: Int!) {
     sort: { order: DESC, fields: [frontmatter___date] }
     limit: $limit
     skip: $skip
-    filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+    filter: { frontmatter: { templateKey: { eq: "blog-post" }, type: { ne: "disease" } } }
   ) {
     edges {
       node {

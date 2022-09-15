@@ -75,8 +75,8 @@ const BlogPost = ({ data }) => {
         <NewsDetails 
           content={post.html}
           contentComponent={HTMLContent}
-          description={post.frontmatter.description}
           tags={post.frontmatter.tags}
+          type={post.frontmatter.type}
           title={post.frontmatter.title}
           group={group}
         />
@@ -111,6 +111,7 @@ export const pageQuery = graphql`
         title
         description
         tags
+        type
       }
     }
   }

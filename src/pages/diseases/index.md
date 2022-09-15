@@ -1,5 +1,5 @@
 ---
-templateKey: 'treatments-page'
+templateKey: 'diseases-page'
 title: Aesthetic Treatments
 ---
 ### Shade-grown coffee

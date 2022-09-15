@@ -5058,7 +5058,7 @@ a:visited {
   padding-bottom: 90px;
 }
 .blog-details {
-  padding: 120px 0;
+  padding: 80px 0;
 }
 .blog-details p {
   font-size: 16px;
@@ -5074,6 +5074,12 @@ a:visited {
 }
 .blog-details blockquote p {
   margin: 0 0 0px;
+}
+.blog-details .breadcrumb {
+  font-size: 14px;
+}
+.blog-details .breadcrumb a {
+  color: #6c757d;
 }
 .blog-details li {
   color: #55595b;
