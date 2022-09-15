@@ -37,7 +37,7 @@ Symptoms are more severe and there may be serious communication problems. They n
 
 **Pervasive developmental disorder not otherwise specified (PDD-NOS)**\
 As can be understood from the title, people who do not fully comply with the first two groups are classified in this group.
-
+<!--form-->
 ## **What Are the Symptoms of Autism?**
 
 If your child is on the Autism spectrum, they may show the following symptoms;
