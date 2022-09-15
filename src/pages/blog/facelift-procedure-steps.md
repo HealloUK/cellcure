@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+path: facelift-procedure-steps
 title: Facelift Procedure Steps
 date: 2022-08-08T19:10:56.260Z
 description: Facelit surgery is a surgical procedure that improves the

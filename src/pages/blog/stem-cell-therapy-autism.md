@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+path: stem-cell-therapy-autism
 title: Stem Cell Therapy for Autism
 date: 2022-08-26T11:01:41.234Z
 description: In this article, topics such as the definition, types and symptoms

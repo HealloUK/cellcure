@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+path: hair-transplant
 title: "Hair Transplant: Procedure, Recovery, Risks 2022"
 date: 2022-08-12T14:29:49.818Z
 description: In this article, after understanding what Hair Transplant is, we

@@ -47,12 +47,12 @@ render() {
                             
 
                             <h2 className="become-teacher__title">Get a free online consultation with a medical adviser</h2>
-                            <p className="become-teacher__text">Fill out the form to discuss the disease and treatment options with an expert! 
-                            You’ll be contacted by a Medical Adviser who will collect information for the doctor and answer your basic questions.
+                            <p className="become-teacher__text">Fill out the form to talk with an expert about your disease and treatment options. 
+                            Medical advisor, who will take your information for the doctor and answer your basic questions, will contact you as soon as possible.
                             </p>
 
                             <p className="become-teacher__text">
-                            Based on your medical reports, the doctors will assess whether you’re a candidate for the therapy. They will consider:
+                            According to your medical reports, the doctors will decide whether you’re eligible for the therapy. They will consider:
                             </p>
 
                             <ul class="become-teacher__list">

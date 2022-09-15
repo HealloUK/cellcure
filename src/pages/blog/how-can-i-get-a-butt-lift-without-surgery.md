@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+path: how-can-i-get-a-butt-lift-without-surgery
 title: How can I get a butt lift without surgery?
 date: 2022-08-08T00:01:28.577Z
 description: Injectable butt lifts are a type of cosmetic procedure that uses

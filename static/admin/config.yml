@@ -15,7 +15,7 @@ public_folder: /img
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "src/pages/health-news"
+    folder: "src/pages/blog"
     create: true
     slug: "{{slug}}"
     fields:

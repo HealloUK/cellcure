@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+path: what-is-health-tourism
 title: Why Turkey is Good Destination for Health Tourism?
 date: 2022-08-07T21:05:30.547Z
 description: >

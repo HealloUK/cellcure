@@ -31,7 +31,7 @@ export default class AboutTwo extends Component {
                   </h3>
                 </div>
                 <p className="about-two__text">
-                We provide an integrative and person-centered recovery approach that helps patients with arthritis, diabetes type 2, multiple sclerosis, autism, stroke, COPD, Parkinson's and many more hard-to-treat diseases to improve their condition and reclaim their quality of life.
+                We provide a tailored and comprehensive treatment approach that helps patients with difficult-to-treat diseases including autism, multiple sclerosis, diabetes type 2, stroke, arthritis, COPD, Parkinson's improve their condition and quality of life.
                 </p>
 
                 <div className="cta-three__single-wrap">

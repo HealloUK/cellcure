@@ -41,7 +41,7 @@ export default function BlogRoll() {
           ) {
             edges {
               node {
-                excerpt(pruneLength: 400)
+                excerpt(pruneLength: 80)
                 id
                 fields {
                   slug
@@ -52,6 +52,7 @@ export default function BlogRoll() {
                   date(formatString: "MMMM DD, YYYY")
                   featuredpost
                   tags
+                  path
                   featuredimage {
                     childImageSharp {
                       gatsbyImageData(

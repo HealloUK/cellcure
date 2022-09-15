@@ -8,10 +8,10 @@ const BlogThree = () => {
       <div className="container">
         <div className="block-title text-center">
           <h2 className="block-title__title">
-          Latest Health News
+          Learn more about Stem Cell treatment
           </h2>
           <br />
-          <h6><Link to="/health-news" style={{ color: "#7c4bc0" }}>More Health News</Link></h6>
+          <h6><Link to="/blog" style={{ color: "#7c4bc0" }}>View All Articles</Link></h6>
         </div>
         <div className="row">
 

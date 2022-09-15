@@ -1,6 +1,5 @@
 ---
 templateKey: 'treatments-page'
-path: /treatments
 title: Aesthetic Treatments
 ---
 ### Shade-grown coffee

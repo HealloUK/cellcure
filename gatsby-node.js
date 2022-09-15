@@ -18,6 +18,7 @@ exports.createPages = ({ actions, graphql }) => {
             frontmatter {
               tags
               templateKey
+              path
             }
           }
         }
@@ -36,9 +37,8 @@ exports.createPages = ({ actions, graphql }) => {
 
       // Create other pages except health-news-page
       if(edge.node.frontmatter.templateKey != "health-news-page") {
-
         createPage({
-          path: edge.node.fields.slug,
+          path: `${edge.node.frontmatter.path ? edge.node.frontmatter.path : edge.node.fields.slug}`,
           tags: edge.node.frontmatter.tags,
           component: path.resolve(
             `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
@@ -57,7 +57,7 @@ exports.createPages = ({ actions, graphql }) => {
     const numPages = Math.ceil(blogPosts.length / postsPerPage)
     Array.from({ length: numPages }).forEach((_, i) => {
       createPage({
-        path: i === 0 ? `/health-news` : `/health-news/${i + 1}`,
+        path: i === 0 ? `/blog` : `/blog/${i + 1}`,
         component: path.resolve("./src/templates/health-news-page.js"),
         context: {
           id,

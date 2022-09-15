@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+path: stem-cell-therapy-for-spinal-cord-injury
 title: Stem Cell Therapy for Spinal Cord Injury
 date: 2022-09-12T17:57:02.120Z
 description: Many researchers are investigating the efficacy and safety of stem

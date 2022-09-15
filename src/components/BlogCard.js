@@ -4,12 +4,14 @@ import { Link } from 'gatsby'
 import { kebabCase, startCase } from "lodash";
 
 const BlogCard = ({ post }) => {
+    //whether specific path determined
+    var blogLink = post.frontmatter.path ? `/${post.frontmatter.path}` : post.fields.slug
     return (
         <div className="col-lg-4" key={post.id}>
             <div className="blog-one__single">
               <div className="blog-one__image">
 
-              <Link to={post.fields.slug}>
+              <Link to={blogLink}>
                 {post.frontmatter.featuredimage ? (
                     <div className="featured-thumbnail">
                       <PreviewCompatibleImage
@@ -38,13 +40,15 @@ const BlogCard = ({ post }) => {
                 <h2 className="blog-one__title">
                 <Link
                       className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
+                      to={blogLink}
                     >
                       {post.frontmatter.title}
-                    </Link>
+                </Link>
                 </h2>
+
+                {post.excerpt}
           
-          
+          {/** 
             <span>
                 {post.frontmatter.tags &&
                   post.frontmatter.tags.map(( tag, i ) => (
@@ -56,7 +60,7 @@ const BlogCard = ({ post }) => {
                   </>
                 ))}
             </span>
-
+          */}
 
               </div>
             </div>

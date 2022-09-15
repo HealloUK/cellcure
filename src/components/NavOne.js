@@ -118,7 +118,7 @@ class NavOne extends Component {
                 
                 
                 <li>
-                  <Link to="/health-news" activeStyle={{ color: "#7c4bc0" }}>Health News</Link>
+                  <Link to="/blog" activeStyle={{ color: "#7c4bc0" }}>Blog</Link>
                 </li>
 
 

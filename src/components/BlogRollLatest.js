@@ -36,13 +36,13 @@ export default function BlogRollLatest() {
       query={graphql`
         query BlogRollLatestQuery {
           allMarkdownRemark(
-            limit: 3
+            limit: 6
             sort: { order: DESC, fields: [frontmatter___date] }
             filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
           ) {
             edges {
               node {
-                excerpt(pruneLength: 400)
+                excerpt(pruneLength: 80)
                 id
                 fields {
                   slug
@@ -53,6 +53,7 @@ export default function BlogRollLatest() {
                   date(formatString: "MMMM DD, YYYY")
                   featuredpost
                   tags
+                  path
                   featuredimage {
                     childImageSharp {
                       gatsbyImageData(
