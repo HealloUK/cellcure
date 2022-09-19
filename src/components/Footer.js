@@ -3,14 +3,24 @@ import React from "react";
 const Footer = () => {
   
   return (
-    <div>
+    <>
+    <div class="site-footer__extra">
+        <div class="container">
+          <div class="site-footer__extra-title">Disclaimer</div>
+          <p>The result of the treatment may vary depending on the type of disease, the patient's condition, the number of 
+              sessions of the treatment and many other factors. Articles, images, patient feedbacks, testimonials and all other materials on the site 
+              are for informational purposes only. Stem cells are not a guaranteed cure for every disease.
+          </p>
+        </div>
+      </div>
+      
       <footer className="site-footer">
         
         <div className="site-footer__bottom">
           <div className="container">
             
             <p className="site-footer__copy">
-              &copy; Copyright 2022 - Heallo
+              &copy; Copyright 2022 - Edge Medica
             </p>
 
             <div className="site-footer__social">
@@ -31,27 +41,9 @@ const Footer = () => {
 
       </footer>
 
-      {/*
-      <div className="search-popup">
-        <div className="search-popup__overlay custom-cursor__overlay search-overlay"></div>
-        <div className="search-popup__inner">
-          <form action="#" className="search-popup__form">
-            <input
-              type="text"
-              name="search"
-              placeholder="Type here to Search...."
-            />
-            <button type="submit">
-              <i className="kipso-icon-magnifying-glass"></i>
-            </button>
-            <div className="cancel"></div>
-          </form>
-        </div>
-      </div>
-      */}
 
-
-    </div>
+      
+    </>
   );
 };
 export default Footer;

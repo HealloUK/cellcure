@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image"
+import CourseList from "./CourseList";
 
 const TopCourses = () => {
   return (
@@ -20,124 +21,8 @@ const TopCourses = () => {
         </p>
       </div>
 
-      <div className="container">
-        <div className="row">
+      <CourseList/>
 
-        <div className="col-lg-4 disease__item">
-              <img width="47" height="48" src="https://heallo.co.uk/wp-content/uploads/2021/03/1.png" class="attachment-photo-thumb size-photo-thumb webpexpress-processed" alt="Digestive System" loading="lazy" />                           
-              <h2 class="disease__item-title">Musculoskeletal disorders</h2>
-              <ul class="disease__item-list">
-                <li><a href="/disease-1">Sports-related injuries</a></li>
-                <li><span>Athletic performance improvement</span></li>
-                <li><span>Stem Cell Treatment for Fibromyalgia</span></li>
-                <li><span>Chronic Fatigue Syndrome Treatment with Stem Cells</span></li>
-                <li><span>Dermatomyositis Treatment with Stem Cells</span></li>
-              </ul>
-          </div>
-
-
-          <div className="col-lg-4 disease__item">
-              <img width="47" height="48" src="https://heallo.co.uk/wp-content/uploads/2021/03/1.png" class="attachment-photo-thumb size-photo-thumb webpexpress-processed" alt="Digestive System" loading="lazy" />                           
-              <h2 class="disease__item-title">Respiratory diseases</h2>
-              <ul class="disease__item-list">
-                <li><span>COPD Treatment with Stem Cells</span></li>
-                <li><span>Asthma Treatment with Stem Cells</span></li>
-                <li><span>Stem Cell Therapy for Pulmonary Fibrosis</span></li>
-                <li><span>Allergic rhinitis</span></li>
-              </ul>
-          </div>
-
-          
-
-          <div className="col-lg-4 disease__item">
-              <img width="47" height="48" src="https://heallo.co.uk/wp-content/uploads/2021/03/1.png" class="attachment-photo-thumb size-photo-thumb webpexpress-processed" alt="Digestive System" loading="lazy" />                           
-              <h2 class="disease__item-title">Endocrine diseases</h2>
-              <ul class="disease__item-list">
-                <li><span>Stem Cell Therapy for Type 2 Diabetes</span></li>
-                <li><span>Hashimoto's thyroiditis</span></li>
-                <li><span>Obesity and Weight Loss</span></li>
-                <li><span>Hypothyroidism</span></li>
-              </ul>
-          </div>
-
-
-
-
-
-          <div className="col-lg-4 disease__item">
-              <img width="47" height="48" src="https://heallo.co.uk/wp-content/uploads/2021/03/1.png" class="attachment-photo-thumb size-photo-thumb webpexpress-processed" alt="Digestive System" loading="lazy" />                           
-              <h2 class="disease__item-title">Digestive System</h2>
-              <ul class="disease__item-list">
-                <li><span>Stem Cell Therapy for Crohn’s Disease</span></li>
-                <li><span>Peptic Ulcer Disease Treatment with Stem Cells</span></li>
-                <li><span>Chronic pancreatitis</span></li>
-              </ul>
-          </div>
-
-
-          <div className="col-lg-4 disease__item">
-              <img width="47" height="48" src="https://heallo.co.uk/wp-content/uploads/2021/03/1.png" class="attachment-photo-thumb size-photo-thumb webpexpress-processed" alt="Digestive System" loading="lazy" />                           
-              <h2 class="disease__item-title">Neurological disease</h2>
-              <ul class="disease__item-list">
-                <li><span>Autism Treatment with Stem Cells</span></li>
-                <li><span>Stem Cell Therapy for Spinal Cord Injuries</span></li>
-                <li><span>Multiple Sclerosis Treatment with Stem Cells</span></li>
-                <li><span>Stem Cell Therapy for Cerebral Palsy</span></li>
-                <li><span>Alzheimer’s Disease Treatment with Stem Cells Therapy</span></li>
-                <li><span>Stem Cell Therapy for Parkinson’s Disease</span></li>
-                <li><span>Stem Cell Treatment for Ataxia</span></li>
-                <li><span>Stem Cell Therapy for Diffuse Axonal Injury</span></li>
-                <li><span>Early Intervention for Autism and Autism Therapy Services</span></li>
-                <li><span>Behavioral Therapy for Autism</span></li>
-                <li><span>Early Intervention for Autism and Autism Therapy Services</span></li>
-                <li><span>Speech and Language Therapy for Autism Spectrum Disorder</span></li>
-              </ul>
-          </div>
-
-          
-
-          <div className="col-lg-4 disease__item">
-              <img width="47" height="48" src="https://heallo.co.uk/wp-content/uploads/2021/03/1.png" class="attachment-photo-thumb size-photo-thumb webpexpress-processed" alt="Digestive System" loading="lazy" />                           
-              <h2 class="disease__item-title">Cardiovascular diseases</h2>
-              <ul class="disease__item-list">
-                <li><span>Post-Stroke Recovery with Stem Cell Therapy</span></li>
-                <li><span>Stem Cell Therapy for Hypertension</span></li>
-                <li><span>Cerebral small vessel disease</span></li>
-                <li><span>Atherosclerotic vascular disease</span></li>
-              </ul>
-          </div>
-
-          <div className="col-lg-4 disease__item">
-              <img width="47" height="48" src="https://heallo.co.uk/wp-content/uploads/2021/03/1.png" class="attachment-photo-thumb size-photo-thumb webpexpress-processed" alt="Digestive System" loading="lazy" />                           
-              <h2 class="disease__item-title">Rheumatic diseases</h2>
-              <ul class="disease__item-list">
-                <li><span>Stem Cell Therapy for Arthritis</span></li>
-                <li><span>Stem Cell Treatment for Systemic Lupus Erythematosus</span></li>
-                <li><span>Rheumatoid vasculitis</span></li>
-              </ul>
-          </div>
-
-          
-
-          
-
-          
-
-          
-
-          
-
-         
-
-
-
-        </div>
-
-
-       
-
-
-      </div>
     </section>
   );
 };

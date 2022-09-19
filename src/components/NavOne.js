@@ -73,9 +73,9 @@ class NavOne extends Component {
             <div className="logo-box clearfix">
               <Link to="/" className="navbar-brand">
                 <StaticImage
-                  src="../../static/img/logo-dark-2.png"
+                  src="../../static/img/edgelogo-2.png"
                   className="main-logo"
-                  width="128"
+                  width="110"
                   alt="Heallo Health Tourism"
                   placeholder="none"
                 />
