@@ -4616,32 +4616,8 @@ a:visited {
 * 13. footer styles
 */
 .site-footer {
-  background-color: #012237;
+  background-color: #022c46;
 }
-
-.site-footer h6 {
-  font-size: 15px;
-  font-weight: bold;
-}
-
-.site-footer p {
-  font-size: 15px;
-  font-weight: 500;
-}
-
-.site-footer a {
-  overflow: hidden;
-  -o-text-overflow: ellipsis;
-  text-overflow: ellipsis;
-  -webkit-box-orient: vertical;
-  display: -webkit-inline-box;
-  -webkit-line-clamp: 1;
-}
-
-.footer-nav__list p {
-  line-height: 120%;
-}
-
 .site-footer__bottom {
   background-color: #012237;
 }
@@ -4662,9 +4638,11 @@ a:visited {
   font-weight: 500;
   display: -webkit-box;
   display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0;
 }
 .site-footer__copy a {
   color: #f16101;
