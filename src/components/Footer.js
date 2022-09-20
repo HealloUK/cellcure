@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import React from "react";
 
 const Footer = () => {
@@ -19,9 +20,15 @@ const Footer = () => {
         <div className="site-footer__bottom">
           <div className="container">
             
-            <p className="site-footer__copy">
-              &copy; Copyright 2022 - Edge Medica
-            </p>
+            <div>
+              <p className="site-footer__copy">&copy; Copyright 2022 - Edge Medica</p>
+              <div className="site-footer__copy-right">
+                <Link to="/privacy-policy">Privacy Policy</Link>
+                <Link className="px-3" to="/terms-of-use">Terms of Use</Link>
+              </div>
+            </div>
+
+            
 
             <div className="site-footer__social">
               

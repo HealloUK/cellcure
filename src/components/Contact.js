@@ -1,17 +1,30 @@
+import { Link } from "gatsby";
 import React from "react";
 
 
-const Contact = ({ handleChange, handleSubmit, isLoading}) => {
+const Contact = ({ handleChange, handleSubmit, isLoading }) => {
 
 
   return (
     <div>
-      
+
       <section className="contact-one">
         <div className="container">
-          <h2 className="contact-one__title text-center">
+
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0">
+              <li class="breadcrumb-item"><Link to="/">Home</Link></li>
+              <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+            </ol>
+          </nav>
+
+
+          <h2 className="contact-one__title">
             Contact Us
           </h2>
+
+          <h5 className="mb-3 text-black">Fill out the form and we will reach you as soon as possible.</h5>
+
           <form
             className="contact-one__form contact-form-validated"
             name="contact"
@@ -34,91 +47,105 @@ const Contact = ({ handleChange, handleSubmit, isLoading}) => {
             <div className="row low-gutters">
 
               <div className="col-lg-6">
-              <label className="label" htmlFor={"name"}>
-                    First name *
-                  </label>
-                  <input
-                      className="input"
-                      type={"text"}
-                      name={"name"}
-                      onChange={handleChange}
-                      id={"name"}
-                      required={true}
-                    />
+                <label className="label" htmlFor={"name"}>
+                  First name *
+                </label>
+                <input
+                  className="input"
+                  type={"text"}
+                  name={"name"}
+                  onChange={handleChange}
+                  id={"name"}
+                  required={true}
+                />
               </div>
 
               <div className="col-lg-6">
-              <label className="label" htmlFor={"lastname"}>
-                    Last name *
-                  </label>
-                  <input
-                      className="input"
-                      type={"text"}
-                      name={"lastname"}
-                      onChange={handleChange}
-                      id={"lastname"}
-                      required={true}
-                    />
+                <label className="label" htmlFor={"lastname"}>
+                  Last name *
+                </label>
+                <input
+                  className="input"
+                  type={"text"}
+                  name={"lastname"}
+                  onChange={handleChange}
+                  id={"lastname"}
+                  required={true}
+                />
               </div>
 
               <div className="col-lg-6">
-              <label className="label" htmlFor={"email"}>
-                    Email *
-                  </label>
-                  <input
-                      className="input"
-                      type={"email"}
-                      name={"email"}
-                      onChange={handleChange}
-                      id={"email"}
-                      required={true}
-                    />
+                <label className="label" htmlFor={"email"}>
+                  Email *
+                </label>
+                <input
+                  className="input"
+                  type={"email"}
+                  name={"email"}
+                  onChange={handleChange}
+                  id={"email"}
+                  required={true}
+                />
               </div>
 
               <div className="col-lg-6">
-              <label className="label" htmlFor={"name"}>
-                    Phone Number *
-                  </label>
-                  <input
-                      className="input"
-                      type={"phone"}
-                      name={"phone"}
-                      onChange={handleChange}
-                      id={"phone"}
-                      required={true}
-                    />
+                <label className="label" htmlFor={"name"}>
+                  Phone Number *
+                </label>
+                <input
+                  className="input"
+                  type={"phone"}
+                  name={"phone"}
+                  onChange={handleChange}
+                  id={"phone"}
+                  required={true}
+                />
               </div>
 
 
-              
-              
+
+
 
               <div className="col-lg-12">
-              <label className="label" htmlFor={"message"}>
-                    Message
+                <label className="label" htmlFor={"message"}>
+                  Message
                 </label>
                 <textarea
-                      className="textarea"
-                      name={"message"}
-                      onChange={handleChange}
-                      id={"message"}
-                      required={true}
-                    />
-                <div className="text-center">
-                  <button type="submit" className="contact-one__btn thm-btn">
+                  className="textarea"
+                  name={"message"}
+                  onChange={handleChange}
+                  id={"message"}
+                  required={true}
+                />
+              </div>
+
+              <div class="col-12">
+                <label class="become-teacher__form-agree">
+
+                  <input type="checkbox" name="agree" />
+
+                  <span class="become-teacher__form-agree-checkbox">
+                    <i className="fa fa-check"></i>
+                  </span>
+                  <span class="become-teacher__form-agree-text">I agree to the <Link to="/terms-of-use">Terms of Use</Link> and <Link to="/privacy-policy">Privacy Policy</Link>.</span>
+                </label>
+              </div>
+
+              <div className="col-12">
+                <button type="submit" className="become-teacher__form-btn">
                   {
-                      isLoading ? (<><span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                    isLoading ? (<><span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                       <span class="sr-only">Loading...</span></>) : "Send"
                   }
-                  </button>
-                </div>
+                </button>
               </div>
+
             </div>
           </form>
           <div className="result text-center"></div>
         </div>
       </section>
-      
+
     </div>
   );
 };

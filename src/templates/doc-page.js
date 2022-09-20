@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
-import NewsDetails from "../components/NewsDetails";
+import DocDetails from "../components/DocDetails";
 import NavOne from "../components/NavOne";
 import Footer from "../components/Footer";
 import ApplicationForm from "../components/ApplicationForm";
@@ -67,7 +67,7 @@ const BlogPost = ({ data }) => {
       description={post.frontmatter.description}
     >
         <NavOne />
-        <NewsDetails 
+        <DocDetails 
           content={editedContent}
           contentComponent={HTMLContent}
           tags={post.frontmatter.tags}
@@ -75,7 +75,7 @@ const BlogPost = ({ data }) => {
           title={post.frontmatter.title}
           group={group}
         />
-        <ApplicationForm />
+        {/*<ApplicationForm />*/}
         <Footer />
     </Layout>
     
@@ -91,7 +91,7 @@ BlogPost.propTypes = {
 export default BlogPost;
 
 export const pageQuery = graphql`
-  query BlogPostByID($id: String!) {
+  query DocPageByID($id: String!) {
     allMarkdownRemark(limit: 1000) {
       group(field: frontmatter___tags) {
         fieldValue
@@ -105,7 +105,6 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         description
-        tags
         type
       }
     }

@@ -1,5 +1,6 @@
 import React from 'react';
 import { navigate } from "gatsby-link";
+import { Link } from 'gatsby';
 
 function encode(data) {
     return Object.keys(data)
@@ -139,17 +140,19 @@ render() {
                                 <span class="become-teacher__form-agree-checkbox">
                                 <i className="fa fa-check"></i>
                                 </span>
-                                <span class="become-teacher__form-agree-text">I agree to the <a href="https://heallo.co.uk/term-of-use">Terms of Use</a> and <a href="https://heallo.co.uk/privacy-policy">Privacy Policy</a>.</span>
+                                <span class="become-teacher__form-agree-text">I agree to the <Link to="/terms-of-use">Terms of Use</Link> and <Link to="/privacy-policy">Privacy Policy</Link>.</span>
                                 </label>
                                 
 
+                                <div className='col-12'>
+                                    <button type="submit" className="become-teacher__form-btn">
+                                        {
+                                            this.state.isLoading ? (<><span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                            <span class="sr-only">Loading...</span></>) : "GET CONSULTATION"
+                                        }
+                                    </button>
+                                </div>
 
-                                <button type="submit" className="become-teacher__form-btn">
-                                    {
-                                        this.state.isLoading ? (<><span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                                        <span class="sr-only">Loading...</span></>) : "GET CONSULTATION"
-                                    }
-                                </button>
                             </form>
                             <div className="result text-center"></div>
                         </div>
