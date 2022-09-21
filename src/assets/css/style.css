@@ -5086,11 +5086,14 @@ a:visited {
   padding: 80px 0;
 }
 .blog-details p {
-  font-size: 16px;
-  line-height: 34px;
-  color: #55595b;
-  font-weight: 500;
-  margin: 0 0 30px
+  font-size: 17px;
+  line-height: 160%;
+  color: #000000;
+  font-weight: 400;
+  margin: 18px 0;
+}
+.blog-details h2 {
+  font-size: 30px;
 }
 .blog-details blockquote {
   border-left: 4px solid #7c4bc0;
@@ -5107,13 +5110,13 @@ a:visited {
   color: #6c757d;
 }
 .blog-details li {
-  color: #55595b;
+  color: #000000;
 }
 .blog-details .blog-one__single {
   margin-bottom: 0;
 }
 .blog-details .blog-one__title {
-  font-size: 50px;
+  font-size: 45px;
   margin-bottom: 28px;
 }
 .blog-details .blog-one__text {

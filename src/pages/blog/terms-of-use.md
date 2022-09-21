@@ -5,95 +5,95 @@ title: "Terms of Use"
 date: 2022-08-12T14:29:49.818Z
 description: Terms of Use
 ---
-![Hair Transplant](/img/hair-transplant.jpg "Hair Transplant")
 
-Hair transplantation was first introduced in the late 1950s by Dr. Norman Orentreich (1905-1980). Since then, there have been many advances in technique, but the procedure remains essentially the same today as it did then - as does its popularity among patients with significant hair loss problems.
 
-## **What is a hair transplant?**
+Welcome to Stem Cell Point!
 
-A hair transplant is a surgical procedure that moves hair follicles from one part of the body to another. Usually the hair on the sides and back of the head is carried to the front of the head.
+These terms and conditions outline the rules and regulations for the use of Stem Cell Point's Website, located at stemcellpoint.org.
 
-**Local anesthesia** is used so that you do not feel pain during the treatment.
+By accessing this website, we assume you accept these terms and conditions. Do not continue to use Stem Cell Point if you do not agree to take all of the terms and conditions stated on this page.
 
-## **What are the Different Types of Hair Transplants?**
+## **Cookies:**
+The website uses cookies to help personalize your online experience. By accessing Stem Cell Point, you agreed to use the required cookies.
 
-#### There are a few different types of hair transplants: slit grafts, micrografts, and punch grafts.
+A cookie is a text file that is placed on your hard disk by a web page server. Cookies cannot be used to run programs or deliver viruses to your computer. Cookies are uniquely assigned to you and can only be read by a web server in the domain that issued the cookie to you.
 
-**Slit grafts** are when the surgeon takes a thin strip of hair from the back of your head and then cuts it into small pieces to transplant onto your balding areas. This type of surgery is usually used for people who have bald patches that are wider than 1 inch.
+We may use cookies to collect, store, and track information for statistical or marketing purposes to operate our website. You have the ability to accept or decline optional Cookies. There are some required Cookies that are necessary for the operation of our website. These cookies do not require your consent as they always work. Please keep in mind that by accepting required Cookies, you also accept third-party Cookies, which might be used via third-party provided services if you use such services on our website, for example, a video display window provided by third parties and integrated into our website.
 
-**Micrografts** are when the surgeon takes tiny plugs of hair (usually about 1-4 hairs per plug) from the back of your head and transplants them onto your balding areas. This type of surgery is usually used for people who have smaller bald patches or who want to restore their hairline.
+## **License:**
+Unless otherwise stated, Stem Cell Point and/or its licensors own the intellectual property rights for all material on Stem Cell Point. All intellectual property rights are reserved. You may access this from Stem Cell Point for your own personal use subjected to restrictions set in these terms and conditions.
 
-**Punch grafts** are when the surgeon takes a circular piece out of the donor area (usually around 3-6 mm in diameter) and implants it into the recipient area. **Punch grafting** is generally used for treating scars or very small areas where there isn’t enough donor hair available to use slit or **micrografting** techniques.
+You must not:
 
-## **Who is a Good Candidate for Hair Transplant?**
+Copy or republish material from Stem Cell Point
+Sell, rent, or sub-license material from Stem Cell Point
+Reproduce, duplicate or copy material from Stem Cell Point
+Redistribute content from Stem Cell Point
+This Agreement shall begin on the date hereof.
 
-First and foremost, it is important to have realistic expectations about what hair transplant surgery can achieve.
-It is not a miracle cure – it will not restore all of your lost hair or make you look like you did in your twenties again.
+Parts of this website offer users an opportunity to post and exchange opinions and information in certain areas of the website. Stem Cell Point does not filter, edit, publish or review Comments before their presence on the website. Comments do not reflect the views and opinions of Stem Cell Point, its agents, and/or affiliates. Comments reflect the views and opinions of the person who posts their views and opinions. To the extent permitted by applicable laws, Stem Cell Point shall not be liable for the Comments or any liability, damages, or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.
 
-However, if done correctly, hair transplant surgery can restore thinning or balding areas on the scalp and improve your appearance significantly.
+Stem Cell Point reserves the right to monitor all Comments and remove any Comments that can be considered inappropriate, offensive, or causes breach of these Terms and Conditions.
 
-Another important consideration when deciding whether or not to undergo a hair transplant procedure is the health of your donor area – that is, the area on your head from which the surgeon will extract hairs for implantation into balding or thinning areas.
+You warrant and represent that:
 
-The donor area must be healthy and have an adequate supply of healthy hairs in order for the procedure to be successful.
+You are entitled to post the Comments on our website and have all necessary licenses and consents to do so;
+The Comments do not invade any intellectual property right, including without limitation copyright, patent, or trademark of any third party;
+The Comments do not contain any defamatory, libelous, offensive, indecent, or otherwise unlawful material, which is an invasion of privacy.
+The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.
+You hereby grant Stem Cell Point a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats, or media.
 
-If you have any doubts about the health of your donor area, it may be wise to consult with a doctor before making a decision about whether or not to proceed with surgery.
+## **Hyperlinking to our Content:**
+The following organizations may link to our Website without prior written approval:
 
-## **The Pros and Cons of Hair Transplants**
+Government agencies;
+Search engines;
+News organizations;
+Online directory distributors may link to our Website in the same manner as they hyperlink to the Websites of other listed businesses; and
+System-wide Accredited Businesses except soliciting non-profit organizations, charity shopping malls, and charity fundraising groups which may not hyperlink to our Web site.
+These organizations may link to our home page, to publications, or to other Website information so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement, or approval of the linking party and its products and/or services; and (c) fits within the context of the linking party's site.
 
-### **Pros**
+We may consider and approve other link requests from the following types of organizations:
 
-* Long lasting solution
-* Simple surgical procedure with minimal downtime
-* Natural look
-* The person's own hair is used in the procedure
-* Safe
-* Straightforward procedure
+commonly-known consumer and/or business information sources;
+dot.com community sites;
+associations or other groups representing charities;
+online directory distributors;
+internet portals;
+accounting, law, and consulting firms; and
+educational institutions and trade associations.
+We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavorably to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c) the benefit to us from the visibility of the hyperlink compensates the absence of Stem Cell Point; and (d) the link is in the context of general resource information.
 
-### **Cons**
+These organizations may link to our home page so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement, or approval of the linking party and its products or services; and (c) fits within the context of the linking party's site.
 
-* Hair transplants can be expensive depending on where you go for your procedure (and how many sessions it takes)
-* Long recovery period
-* Infection risk. In order to minimize the risk of infection, you should take good care of the transplanted area after the surgery
+If you are one of the organizations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to Stem Cell Point. Please include your name, your organization name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our Website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a response.
 
-## **How is Hair Transplant Performed?**
+Approved organizations may hyperlink to our Website as follows:
 
-After cleaning the scalp, Surgeon applies **local anesthesia** with a small needle to the back of the head.
+By use of our corporate name; or
+By use of the uniform resource locator being linked to; or
+Using any other description of our Website being linked to that makes sense within the context and format of content on the linking party's site.
+No use of Stem Cell Point's logo or other artwork will be allowed for linking absent a trademark license agreement.
 
-There are two main types of hair transplant surgery: **follicular unit transplantation (FUT)** and **follicular unit extraction (FUE)**. FUT is more common, but FUE is becoming more popular because it causes less scarring.
+## **Content Liability:**
+We shall not be held responsible for any content that appears on your Website. You agree to protect and defend us against all claims that are raised on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene, or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.
 
-Surgeon uses one of the methods of **follicular unit transplantation (FUT)** and **follicular unit extraction (FUE)** to obtain follicles.
+## **Reservation of Rights:**
+We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amend these terms and conditions and its linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.
 
-##### **In follicular unit transplantation (FUT):**
+## **Removal of links from our website:**
+If you find any link on our Website that is offensive for any reason, you are free to contact and inform us at any moment. We will consider requests to remove links, but we are not obligated to or so or to respond to you directly.
 
-A strip of skin containing many hair follicles is removed from the back of the head and then divided into small units called grafts. These grafts are transplanted to bald or thinning areas on top of the head.
+We do not ensure that the information on this website is correct. We do not warrant its completeness or accuracy, nor do we promise to ensure that the website remains available or that the material on the website is kept up to date.
 
-##### **In follicular unit extraction (FUE);**
+## **Disclaimer:**
+To the maximum extent permitted by applicable law, we exclude all representations, warranties, and conditions relating to our website and the use of this website. Nothing in this disclaimer will:
 
-Individual hairs are removed one at a time from around the scalp and then transplanted to bald or thinning areas.
+limit or exclude our or your liability for death or personal injury;
+limit or exclude our or your liability for fraud or fraudulent misrepresentation;
+limit any of our or your liabilities in any way that is not permitted under applicable law; or
+exclude any of our or your liabilities that may not be excluded under applicable law.
+The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort, and for breach of statutory duty.
 
-A single hair transplant session can take approximately **6-8 hours**. You may need **3-4 sessions** to achieve the desired result. For the healing process, it is necessary to wait a **few months** between sessions.
+As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.
 
-## **Hair Transplant Recovery**
-
-You may feel some discomfort on the scalp in the days after the surgery. You may need to take pain medication for a few days. Doctor may prescribe an antibiotic or an anti-inflammatory drug.
-
-Most people can **return to work several days** after surgery.
-
-The transplanted hair falls out **2-3 weeks** after the procedure. But within a few months, your new hair should start to grow. It usually takes **8-12 months** for your new hair to start growing.
-
-## **Risks and Complications**
-
-As with any surgery, Hair Transplant also has some risks;
-
-* Folliculitis - inflammation or an infection of the hair follicles
-* Bleeding
-* Unnatural-looking
-* Shock loss - typically temporary loss of the transplanted hair
-
-If you experience any of these problems, contact your doctor.
-
-## **Conclusion**
-
-Many different factors can cause hair loss. There are many different treatments to solve this problem. Each treatment may not be the right solution for everyone. For this reason, it is recommended that you do a detailed research and get opinions from many different doctors before making a decision. Only in this way, you can find the right treatment for you and increase your chances of getting a successful result.
-
-As **Heallo** Team, We are always ready to design every stage of your **Hair Transplant** procedure in the most perfect way. You can contact us using the form below and **get free consultation**.

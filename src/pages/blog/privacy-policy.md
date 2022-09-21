@@ -5,95 +5,52 @@ title: "Privacy Policy"
 date: 2022-08-12T14:29:49.818Z
 description: Privacy Policy
 ---
-![Hair Transplant](/img/hair-transplant.jpg "Hair Transplant")
 
-Hair transplantation was first introduced in the late 1950s by Dr. Norman Orentreich (1905-1980). Since then, there have been many advances in technique, but the procedure remains essentially the same today as it did then - as does its popularity among patients with significant hair loss problems.
 
-## **What is a hair transplant?**
+stemcellpoint.org website is owned by Stem Cell Point, which is a data controller of your personal data.
 
-A hair transplant is a surgical procedure that moves hair follicles from one part of the body to another. Usually the hair on the sides and back of the head is carried to the front of the head.
+We have adopted this Privacy Policy, which determines how we are processing the information collected by stemcellpoint.org, which also provides the reasons why we must collect certain personal data about you. Therefore, you must read this Privacy Policy before using stemcellpoint.org website.
 
-**Local anesthesia** is used so that you do not feel pain during the treatment.
+We take care of your personal data and undertake to guarantee its confidentiality and security.
 
-## **What are the Different Types of Hair Transplants?**
+## **Personal information we collect:**
 
-#### There are a few different types of hair transplants: slit grafts, micrografts, and punch grafts.
+When you visit the stemcellpoint.org, we automatically collect certain information about your device, including information about your web browser, IP address, time zone, and some of the installed cookies on your device. Additionally, as you browse the Site, we collect information about the individual web pages or products you view, what websites or search terms referred you to the Site, and how you interact with the Site. We refer to this automatically-collected information as “Device Information.” Moreover, we might collect the personal data you provide to us (including but not limited to Name, Surname, Address, payment information, etc.) during registration to be able to fulfill the agreement.
 
-**Slit grafts** are when the surgeon takes a thin strip of hair from the back of your head and then cuts it into small pieces to transplant onto your balding areas. This type of surgery is usually used for people who have bald patches that are wider than 1 inch.
+## **Why do we process your data?**
 
-**Micrografts** are when the surgeon takes tiny plugs of hair (usually about 1-4 hairs per plug) from the back of your head and transplants them onto your balding areas. This type of surgery is usually used for people who have smaller bald patches or who want to restore their hairline.
+Our top priority is customer data security, and, as such, we may process only minimal user data, only as much as it is absolutely necessary to maintain the website. Information collected automatically is used only to identify potential cases of abuse and establish statistical information regarding website usage. This statistical information is not otherwise aggregated in such a way that it would identify any particular user of the system.
 
-**Punch grafts** are when the surgeon takes a circular piece out of the donor area (usually around 3-6 mm in diameter) and implants it into the recipient area. **Punch grafting** is generally used for treating scars or very small areas where there isn’t enough donor hair available to use slit or **micrografting** techniques.
+You can visit the website without telling us who you are or revealing any information, by which someone could identify you as a specific, identifiable individual. If, however, you wish to use some of the website’s features, or you wish to receive our newsletter or provide other details by filling a form, you may provide personal data to us, such as your email, first name, last name, city of residence, organization, telephone number. You can choose not to provide us with your personal data, but then you may not be able to take advantage of some of the website’s features. For example, you won’t be able to receive our Newsletter or contact us directly from the website. Users who are uncertain about what information is mandatory are welcome to contact us via info@stemcellpoint.org.
 
-## **Who is a Good Candidate for Hair Transplant?**
+## **Your rights:**
 
-First and foremost, it is important to have realistic expectations about what hair transplant surgery can achieve.
-It is not a miracle cure – it will not restore all of your lost hair or make you look like you did in your twenties again.
+If you are a European resident, you have the following rights related to your personal data:
 
-However, if done correctly, hair transplant surgery can restore thinning or balding areas on the scalp and improve your appearance significantly.
+The right to be informed.
+The right of access.
+The right to rectification.
+The right to erasure.
+The right to restrict processing.
+The right to data portability.
+The right to object.
+Rights in relation to automated decision-making and profiling.
+If you would like to exercise this right, please contact us through the contact information below.
 
-Another important consideration when deciding whether or not to undergo a hair transplant procedure is the health of your donor area – that is, the area on your head from which the surgeon will extract hairs for implantation into balding or thinning areas.
+Additionally, if you are a European resident, we note that we are processing your information in order to fulfill contracts we might have with you (for example, if you make an order through the Site), or otherwise to pursue our legitimate business interests listed above. Additionally, please note that your information might be transferred outside of Europe, including Canada and the United States.
 
-The donor area must be healthy and have an adequate supply of healthy hairs in order for the procedure to be successful.
+## **Links to other websites:**
 
-If you have any doubts about the health of your donor area, it may be wise to consult with a doctor before making a decision about whether or not to proceed with surgery.
+Our website may contain links to other websites that are not owned or controlled by us. Please be aware that we are not responsible for such other websites or third parties' privacy practices. We encourage you to be aware when you leave our website and read the privacy statements of each website that may collect personal information.
 
-## **The Pros and Cons of Hair Transplants**
+## **Information security:**
 
-### **Pros**
+We secure information you provide on computer servers in a controlled, secure environment, protected from unauthorized access, use, or disclosure. We keep reasonable administrative, technical, and physical safeguards to protect against unauthorized access, use, modification, and personal data disclosure in its control and custody. However, no data transmission over the Internet or wireless network can be guaranteed.
 
-* Long lasting solution
-* Simple surgical procedure with minimal downtime
-* Natural look
-* The person's own hair is used in the procedure
-* Safe
-* Straightforward procedure
+## **Legal disclosure:**
 
-### **Cons**
+We will disclose any information we collect, use or receive if required or permitted by law, such as to comply with a subpoena or similar legal process, and when we believe in good faith that disclosure is necessary to protect our rights, protect your safety or the safety of others, investigate fraud, or respond to a government request.
 
-* Hair transplants can be expensive depending on where you go for your procedure (and how many sessions it takes)
-* Long recovery period
-* Infection risk. In order to minimize the risk of infection, you should take good care of the transplanted area after the surgery
+## **Contact information:**
 
-## **How is Hair Transplant Performed?**
-
-After cleaning the scalp, Surgeon applies **local anesthesia** with a small needle to the back of the head.
-
-There are two main types of hair transplant surgery: **follicular unit transplantation (FUT)** and **follicular unit extraction (FUE)**. FUT is more common, but FUE is becoming more popular because it causes less scarring.
-
-Surgeon uses one of the methods of **follicular unit transplantation (FUT)** and **follicular unit extraction (FUE)** to obtain follicles.
-
-##### **In follicular unit transplantation (FUT):**
-
-A strip of skin containing many hair follicles is removed from the back of the head and then divided into small units called grafts. These grafts are transplanted to bald or thinning areas on top of the head.
-
-##### **In follicular unit extraction (FUE);**
-
-Individual hairs are removed one at a time from around the scalp and then transplanted to bald or thinning areas.
-
-A single hair transplant session can take approximately **6-8 hours**. You may need **3-4 sessions** to achieve the desired result. For the healing process, it is necessary to wait a **few months** between sessions.
-
-## **Hair Transplant Recovery**
-
-You may feel some discomfort on the scalp in the days after the surgery. You may need to take pain medication for a few days. Doctor may prescribe an antibiotic or an anti-inflammatory drug.
-
-Most people can **return to work several days** after surgery.
-
-The transplanted hair falls out **2-3 weeks** after the procedure. But within a few months, your new hair should start to grow. It usually takes **8-12 months** for your new hair to start growing.
-
-## **Risks and Complications**
-
-As with any surgery, Hair Transplant also has some risks;
-
-* Folliculitis - inflammation or an infection of the hair follicles
-* Bleeding
-* Unnatural-looking
-* Shock loss - typically temporary loss of the transplanted hair
-
-If you experience any of these problems, contact your doctor.
-
-## **Conclusion**
-
-Many different factors can cause hair loss. There are many different treatments to solve this problem. Each treatment may not be the right solution for everyone. For this reason, it is recommended that you do a detailed research and get opinions from many different doctors before making a decision. Only in this way, you can find the right treatment for you and increase your chances of getting a successful result.
-
-As **Heallo** Team, We are always ready to design every stage of your **Hair Transplant** procedure in the most perfect way. You can contact us using the form below and **get free consultation**.
+If you would like to contact us to understand more about this Policy or wish to contact us concerning any matter relating to individual rights and your Personal Information, you may send an email to info@stemcellpoint.org.
