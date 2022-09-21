@@ -8,8 +8,7 @@ description: Many researchers are investigating the efficacy and safety of stem
   results regarding the safety and efficacy of stem cells.
 featuredpost: false
 featuredimage: /img/spinal-cord-problem.jpg
-tags:
-  - spinal-cord-injury
+
 ---
 The brain is constantly in communication with the whole body. This communication occurs through the spinal cord. You can think of the spinal cord as a cable that allows us to transfer information between computers. Millions of nerve cells inside this cable interact with each other, allowing information to be transmitted along the cable.
 

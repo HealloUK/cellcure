@@ -10,10 +10,8 @@ import BlogRollPostPageLatest from "./BlogRollPostPageLatest";
 const NewsDetails = ({
   content,
   contentComponent,
-  tags,
   type,
   title,
-  group
 }) => {
   const PostContent = contentComponent || Content;
   const url = typeof window !== 'undefined' ? window.location.href : '';
@@ -42,17 +40,8 @@ const NewsDetails = ({
                 
               </div>
             </div>
-            <div className="share-block">
-              <div className="left-block">
-                <p>
-                  Tags: 
-                  
-                  {tags.map((tag) => (
-                      <Link key={tag + `tag`} to={`/tags/${kebabCase(tag)}/` }>{startCase(tag)}</Link>
-                  ))}
 
-                </p>
-              </div>
+            <div className="share-block">
               <div className="social-block">
                 <a target="_blank" href={`https://twitter.com/intent/tweet/?text=${title}&url=${url}`}>
                   <i className="fab fa-twitter"></i>
@@ -83,30 +72,6 @@ const NewsDetails = ({
                   
                 </div>
               </div>
-              
-
-
-
-              <div className="sidebar__single sidebar__category">
-                <h3 className="sidebar__title">Categories</h3>
-                <ul className="sidebar__category-list">
-                  
-                  
-                  {group &&
-                    group.map((tag) => (
-
-                      <li className="sidebar__category-list-item" key={tag.fieldValue + tag.totalCount}>
-                              <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>{startCase(tag.fieldValue)}</Link>
-                      </li>
-
-                  ))}
-                  
-                  
-                </ul>
-              </div>
-
-
-
 
 
 
