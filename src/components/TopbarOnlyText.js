@@ -14,7 +14,7 @@ class Topbar extends Component {
       <div className="topbar-one-only-text">
         <div className="container">
           <div className="topbar-one-only-text__left">
-            <a href="#none">Do you want to talk to Medical Advisor?</a>
+            <a href="#none">Do you have question?</a>
           </div>
           <div className="topbar-one-only-text__right">
             <a onClick={scrollToQuote} href="#none">Get a free consultation</a>
