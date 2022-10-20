@@ -8,8 +8,8 @@ import Courses from "../components/Courses";
 const CoursesPage = () => {
     return (
         <Layout 
-            pageTitle="Aesthetic Treatments in Turkey"
-            description="Our skilled surgeons offers a wide range of procedures, including rhinoplasty, tummy tuck, bbl, liposuction, facelift, and breast surgery with affordable prices."
+            pageTitle="Diseases"
+            description="Stem cell therapy can be used for the listed diseases and more."
         >
             <NavOne />
             <Courses />

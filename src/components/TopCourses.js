@@ -15,8 +15,7 @@ const TopCourses = () => {
         </div>
         <p className="block-subtitle">
         We design tailored and comprehensive care plans to meet the unique needs of each individual. 
-        In some cases, stem cells alone may not be enough. In these cases, a combination of stem cells and other therapies may be required. 
-        This could involve the use of growth factors or scaffolds to support the regeneration process. We have seen different levels of progress in 
+        Stem cell therapy can be combined with other therapeutic approaches to improve the effectiveness of the treatment when applying stem cells alone is insufficient. We have seen different levels of progress in 
         our treatments for the diseases listed below(many more not on the list):
         </p>
       </div>

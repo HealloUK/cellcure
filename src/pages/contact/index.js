@@ -39,7 +39,7 @@ export default class Index extends React.Component {
 
   render() {
     return (
-      <Layout pageTitle="Contact">
+      <Layout pageTitle="Contact Us">
             <NavOne />
             <Contact handleChange={this.handleChange} handleSubmit={this.handleSubmit} isLoading={this.state.isLoading}  />
             <Footer />

@@ -57,8 +57,8 @@ render() {
                             </p>
 
                             <ul class="become-teacher__list">
-                            <li>Whether stem cell therapy will be effective in your specific case?</li>
-                            <li>What the treatment involves?</li>
+                            <li>How well your particular condition will respond to stem cell therapy?</li>
+                            <li>What is covered by the treatment?</li>
                             <li>How much does it cost?</li>
                             </ul>
 

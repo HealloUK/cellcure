@@ -21,7 +21,7 @@ const Layout = (props) => {
     <div>
       <Helmet
         title={title}
-        titleTemplate={`%s | Heallo UK`}
+        titleTemplate={`%s | Edge Medica`}
         htmlAttributes={{
           lang: "en"
         }}
@@ -36,11 +36,11 @@ const Layout = (props) => {
         {metaDescription && (<meta name={`og:description`} content={metaDescription}/>)}
         <meta name={`og:type`} content={`website`}/>
         <meta property="og:locale" content="en_GB"/>
-        <meta property="og:site_name" content="Heallo UK"/>
-        <meta property="og:url" content="https://heallo.co.uk/"/>
+        <meta property="og:site_name" content="Edge Medica"/>
+        <meta property="og:url" content="https://stemcellpoint.com/"/>
         {image && (<meta property="og:image" content={image}></meta>)}
         <meta name={`twitter:card`} content={`summary`}/>
-        <meta name={`twitter:creator`} content="Heallo UK"/>
+        <meta name={`twitter:creator`} content="Edge Medica"/>
         <meta name={`twitter:title`} content={title}/>
         {metaDescription && (<meta name={`twitter:description`} content={metaDescription}/>)}
         {image && (<meta name="twitter:image" content={image}></meta>)}

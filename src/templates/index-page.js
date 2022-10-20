@@ -11,8 +11,8 @@ import Footer from "../components/Footer";
 
 const HomePage = () => (
   <Layout 
-    pageTitle="We design your perfect medical journey in Turkey"
-    description="We have a wide range of aesthetic treatments including bariatric surgery, hair transplant and dental for you to choose from-all at an affordable price in Turkey."
+    pageTitle="Stem Cell Treatment Clinic"
+    description="We provide a tailored and comprehensive treatment approach that helps patients with difficult-to-treat diseases including autism, multiple sclerosis, diabetes type 2, stroke, arthritis, COPD, Parkinson's improve their condition and quality of life."
   >
     <TopbarOnlyText />
     <NavOne />

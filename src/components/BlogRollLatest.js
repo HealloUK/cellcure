@@ -54,15 +54,6 @@ export default function BlogRollLatest() {
                   featuredpost
                   tags
                   path
-                  featuredimage {
-                    childImageSharp {
-                      gatsbyImageData(
-                        quality: 100
-                        layout: FULL_WIDTH
-                      )
-
-                    }
-                  }
                 }
               }
             }

@@ -5,7 +5,7 @@ import Footer from "../../components/Footer";
 
 // eslint-disable-next-line
 export default () => (
-  <Layout pageTitle="Contact">
+  <Layout pageTitle="Thank You">
             <NavOne />
             <div className="text-center" style={{ minHeight: "750px", marginTop: "200px" }}>
             <h1>Thank you!</h1>

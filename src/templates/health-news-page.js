@@ -12,8 +12,8 @@ const NewsPage = ({ pageContext, data }) => {
 
     return (
       <Layout
-        pageTitle="Health News"
-        description="Check out latest news about the aesthetic treatments and medical tourism."
+        pageTitle="Blog"
+        description="Check out latest news about the stem cell treatments."
       >
             <NavOne />
             {/*<PageHeader title="News" />*/}
@@ -48,14 +48,6 @@ query NewsPageQuery($skip: Int!, $limit: Int!) {
           featuredpost
           tags
           path
-          featuredimage {
-            childImageSharp {
-              gatsbyImageData(
-                quality: 100
-                layout: FULL_WIDTH
-              )
-            }
-          }
         }
       }
     }

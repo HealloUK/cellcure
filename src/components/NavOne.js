@@ -123,7 +123,7 @@ class NavOne extends Component {
 
 
                 <li>
-                  <Link to="/faq" activeStyle={{ color: "#7c4bc0" }}>FAQ</Link>
+                  <Link to="/about-us" activeStyle={{ color: "#7c4bc0" }}>About Us</Link>
                 </li>
 
 

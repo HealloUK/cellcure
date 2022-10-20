@@ -9,32 +9,7 @@ const BlogCard = ({ post }) => {
     return (
         <div className="col-lg-4" key={post.id}>
             <div className="blog-one__single">
-              <div className="blog-one__image">
-
-              <Link to={blogLink}>
-                {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: post.frontmatter.featuredimage,
-                          alt: post.frontmatter.title,
-                          width:
-                            post.frontmatter.featuredimage.childImageSharp
-                              .gatsbyImageData.width,
-                          height:
-                            post.frontmatter.featuredimage.childImageSharp
-                              .gatsbyImageData.height,
-                        }}
-                      />
-                    </div>
-                    ) : null}
-
-                  <div className="blog-one__plus">
-                    <i className="kipso-icon-plus-symbol"></i>
-                  </div>
-                </Link>
-                
-              </div>
+              
               <div className="blog-one__content text-center">
                 
                 <h2 className="blog-one__title">

@@ -106,16 +106,12 @@ const CourseList = () => {
             <ul class="disease__item-list">
               <li><span>Autism Treatment with Stem Cells</span></li>
               <li><span>Stem Cell Therapy for Spinal Cord Injuries</span></li>
-              <li><span>Multiple Sclerosis Treatment with Stem Cells</span></li>
+              <li><Link to="multiple-sclerosis-treatment-with-stem-cells">Multiple Sclerosis Treatment with Stem Cells</Link></li>
               <li><span>Stem Cell Therapy for Cerebral Palsy</span></li>
               <li><span>Alzheimer’s Disease Treatment with Stem Cells Therapy</span></li>
               <li><span>Stem Cell Therapy for Parkinson’s Disease</span></li>
               <li><span>Stem Cell Treatment for Ataxia</span></li>
               <li><span>Stem Cell Therapy for Diffuse Axonal Injury</span></li>
-              <li><span>Early Intervention for Autism and Autism Therapy Services</span></li>
-              <li><span>Behavioral Therapy for Autism</span></li>
-              <li><span>Early Intervention for Autism and Autism Therapy Services</span></li>
-              <li><span>Speech and Language Therapy for Autism Spectrum Disorder</span></li>
             </ul>
           </div>
 

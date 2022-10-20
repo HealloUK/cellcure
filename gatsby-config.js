@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Heallo UK",
-    description: "We design your perfect medical journey in Turkey",
-    siteUrl: "https://heallo.co.uk",
+    title: "Edge Medica",
+    description: "We provide a tailored and comprehensive treatment approach that helps patients with difficult-to-treat diseases including autism, multiple sclerosis, diabetes type 2, stroke, arthritis, COPD, Parkinson's improve their condition and quality of life.",
+    siteUrl: "https://stemcellpoint.com",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -95,7 +95,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-canonical-urls",
       options: {
-        siteUrl: "https://heallo.co.uk",
+        siteUrl: "https://stemcellpoint.com",
         stripQueryString: true,
       }
     },
@@ -103,7 +103,7 @@ module.exports = {
       resolve: "gatsby-plugin-robots-txt",
       options: {
         host: "",
-        sitemap: 'https://heallo.co.uk/sitemap-pages.xml',
+        sitemap: 'https://stemcellpoint.com/sitemap-pages.xml',
         policy: [{userAgent: '*', disallow: ['/admin']}]
       }
     },

@@ -14,10 +14,10 @@ class Topbar extends Component {
       <div className="topbar-one-only-text">
         <div className="container">
           <div className="topbar-one-only-text__left">
-            <a href="#none">If you think you deserve better</a>
+            <a href="#none">Do you want to talk to Medical Advisor?</a>
           </div>
           <div className="topbar-one-only-text__right">
-            <a onClick={scrollToQuote} href="#none">Get Free Quote Now</a>
+            <a onClick={scrollToQuote} href="#none">Get a free consultation</a>
           </div>
         </div>
       </div>

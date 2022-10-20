@@ -49,14 +49,6 @@ export const tagPageQuery = graphql`
           frontmatter {
             title
             tags
-          featuredimage {
-            childImageSharp {
-              gatsbyImageData(
-                quality: 100
-                layout: FULL_WIDTH
-              )
-            }
-          }
           }
         }
       }

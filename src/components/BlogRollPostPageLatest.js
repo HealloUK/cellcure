@@ -14,26 +14,6 @@ class BlogRollPostPageLatestTemplate extends React.Component {
           posts.map(({ node: post }) => (
 
             <div className="sidebar__post__single" key={post.id}>
-                    <div className="sidebar__post-image">
-                      <div className="inner-block">
-                        {post.frontmatter.featuredimage ? (
-                          <div className="featured-thumbnail">
-                            <PreviewCompatibleImage
-                              imageInfo={{
-                                image: post.frontmatter.featuredimage,
-                                alt: post.frontmatter.title,
-                                width:
-                                  post.frontmatter.featuredimage.childImageSharp
-                                    .gatsbyImageData.width,
-                                height:
-                                  post.frontmatter.featuredimage.childImageSharp
-                                    .gatsbyImageData.height,
-                              }}
-                            />
-                          </div>
-                    ) : null}
-                      </div>
-                    </div>
                     <div className="sidebar__post-content">
                       <h4 className="sidebar__post-title">
                         <Link to={post.frontmatter.path ? `/${post.frontmatter.path}` : post.fields.slug}>
@@ -81,15 +61,6 @@ export default function BlogRollPostPageLatest() {
                   featuredpost
                   tags
                   path
-                  featuredimage {
-                    childImageSharp {
-                      gatsbyImageData(
-                        quality: 100
-                        layout: FULL_WIDTH
-                      )
-
-                    }
-                  }
                 }
               }
             }

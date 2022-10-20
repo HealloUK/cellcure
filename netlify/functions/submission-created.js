@@ -13,7 +13,7 @@ const sendThankYouEmail = async ({ email, first_name }) => {
     const name = first_name;
 
     const messageData = {
-      from: 'Customer Service <welcome@heallo.co.uk>',
+      from: 'Customer Service <welcome@stemcellpoint.com>',
       to: email,
       subject: `Hey ${name}, We will reach you soon`,
       template: 'welcome',

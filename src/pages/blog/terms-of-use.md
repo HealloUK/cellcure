@@ -9,7 +9,7 @@ description: Terms of Use
 
 Welcome to Stem Cell Point!
 
-These terms and conditions outline the rules and regulations for the use of Stem Cell Point's Website, located at stemcellpoint.org.
+These terms and conditions outline the rules and regulations for the use of Stem Cell Point's Website, located at stemcellpoint.com.
 
 By accessing this website, we assume you accept these terms and conditions. Do not continue to use Stem Cell Point if you do not agree to take all of the terms and conditions stated on this page.
 
