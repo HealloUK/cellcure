@@ -86,6 +86,7 @@ module.exports = {
       options: {
         exclude: [
           "/admin",
+          "/tags",
           "/contact/thanks",
           "/404",
           "/404.html",
