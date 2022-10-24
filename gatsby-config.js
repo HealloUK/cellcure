@@ -4,6 +4,7 @@ module.exports = {
     description: "We provide a tailored and comprehensive treatment approach that helps patients with difficult-to-treat diseases including autism, multiple sclerosis, diabetes type 2, stroke, arthritis, COPD, Parkinson's improve their condition and quality of life.",
     siteUrl: "https://stemcellpoint.com",
   },
+  trailingSlash: "never",
   plugins: [
     "gatsby-plugin-react-helmet",
     {
