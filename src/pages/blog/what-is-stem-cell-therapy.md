@@ -10,6 +10,7 @@ tags:
   - stem-cell
 ---
 
+[30 seconds of quick information](https://stemcellpoint.com/stories/stem-cell-therapy.html) before you start reading.
 
 Stem Cell research has been going on all over the world for more than 30 years. 
 We have learned a lot from the results of completed and ongoing scientific studies on the efficacy and safety of stem cell treatment of diseases such as autism, multiple sclerosis, diabetes, conditions after a heart attack or stroke, Chronic Obstructive Pulmonary, Alzheimer's disease, Crohn's disease, Spinal Cord Injury, rheumatic diseases, Cerebral Palsy, Traumatic Brain Injury ,and many others.
