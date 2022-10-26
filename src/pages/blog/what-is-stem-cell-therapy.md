@@ -34,7 +34,8 @@ Stem Cells found in all of our tissues and organs allow our hair to grow, to ren
 
 Studies have shown that Stem Cell's only ability is not to make cells of the tissues and organs it is in, but it can also make cells of different tissues and organs when they are taken into laboratory environments.
 
-In addition to the ability of stem cells to transform into cells of other tissues and organs, we learned that they positively contribute to many pathological processes by suppressing alarmed immune responses, having a high anti-inflammatory effect, stopping or slowing down unwanted pathological processes such as new vessel formation potential, fibrosis, and anti-bacterial properties.
+In addition to the ability of stem cells to transform into cells of other tissues and organs, they contribute positively to many disease processes due to their high anti-inflammatory and immune-regulating properties. 
+It can halt or slow down several pathological processes because of its capacity to promote the growth of new vessels, anti-bacterial and anti-fibrotic properties.
 
 Stem cells are cells that have the ability to differentiate into several cell types and renew themselves. From a single stem cell, millions of cells can arise.
 
