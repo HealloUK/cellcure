@@ -81,7 +81,6 @@ module.exports = {
         purgeOnly: ["/all.sass"], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
-    "gatsby-plugin-netlify", // make sure to keep it last in the array
     {
       resolve: "gatsby-plugin-advanced-sitemap",
       options: {
@@ -132,5 +131,7 @@ module.exports = {
         // More options defined here https://purgecss.com/configuration.html#options
       },
     },
+    "gatsby-plugin-preact",
+    "gatsby-plugin-netlify", // make sure to keep it last in the array
   ],
 };
