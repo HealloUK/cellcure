@@ -5986,6 +5986,11 @@ a:visited {
   position: relative;
   z-index: 10;
 }
+/*Added for staticimage at homepage*/
+.about-two__image > div > picture > img {
+  border-radius: 50%;
+  z-index: 10;
+}
 .about-two__image-dots {
   width: 197px;
   height: 268px;

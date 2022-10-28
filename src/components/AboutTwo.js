@@ -1,5 +1,5 @@
+import { StaticImage } from "gatsby-plugin-image";
 import React, { Component } from "react";
-import about1 from "../assets/images/older-couple.jpg";
 export default class AboutTwo extends Component {
   constructor() {
     super();
@@ -58,7 +58,13 @@ export default class AboutTwo extends Component {
             <div className="col-xl-6 d-flex justify-content-xl-end justify-content-sm-center">
               <div className="about-two__image">
                 <span className="about-two__image-dots"></span>
-                <img src={about1} alt="" />
+                <StaticImage
+                  src="../../static/img/older-couple.jpg"
+                  aspectRatio={1/1}
+                  placeholder="none"
+                  objectFit="contain"
+                  quality={100}
+                />
                 <div className="about-two__count">
                   <div className="about-two__count-text">
                     Trusted by
