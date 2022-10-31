@@ -87,7 +87,7 @@ class NavOne extends Component {
                 </a>
                 */}
 
-                <a target="blank" href="https://www.facebook.com/heallouk">
+                <a target="blank" href="https://www.facebook.com/heallouk" aria-label="Follow Us on Facebook">
                   <i className="fab fa-facebook-square"></i>
                 </a>
 
@@ -97,7 +97,7 @@ class NavOne extends Component {
                 </a>
                 */}
                 
-                <a target="blank" href="https://www.instagram.com/heallouk/">
+                <a target="blank" href="https://www.instagram.com/heallouk/" aria-label="Follow Us on Instagram">
                   <i className="fab fa-instagram"></i>
                 </a>
               </div>

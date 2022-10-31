@@ -130,6 +130,33 @@ module.exports = {
         // More options defined here https://purgecss.com/configuration.html#options
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Stem Cell Point`,
+        short_name: `Stem Cell Point`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#7c4bc0`,
+        display: `standalone`,
+        icon: `src/assets/images/favicons/android-chrome-512x512.png`,
+        icons: [
+          {
+            src: `src/assets/images/favicons/maskable_icon_x192.png`,
+            sizes: `192x192`,
+            type: `image/png`,
+            purpose: `any maskable`
+          },
+          {
+            src: `src/assets/images/favicons/maskable_icon_x512.png`,
+            sizes: `512x512`,
+            type: `image/png`,
+            purpose: `any maskable`
+          }
+        ]
+      },
+    },
+    "gatsby-plugin-offline",
     "gatsby-plugin-preact",
     "gatsby-plugin-netlify", // make sure to keep it last in the array
   ],
