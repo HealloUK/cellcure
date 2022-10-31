@@ -1,7 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { kebabCase } from "lodash";
-import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
@@ -9,6 +7,7 @@ import NewsDetails from "../components/NewsDetails";
 import NavOne from "../components/NavOne";
 import Footer from "../components/Footer";
 import ApplicationForm from "../components/ApplicationForm";
+import Seo from "../components/Seo";
 
 
 
@@ -62,10 +61,7 @@ const BlogPost = ({ data }) => {
 
   return (
     
-    <Layout
-      pageTitle={post.frontmatter.title}
-      description={post.frontmatter.description}
-    >
+    <Layout>
         <NavOne />
         <NewsDetails 
           content={editedContent}
@@ -110,3 +106,11 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+
+export const Head = ({location, data}) => <Seo 
+                            title={data.markdownRemark.frontmatter.title}
+                            description={data.markdownRemark.frontmatter.description}
+                            location={location.pathname}
+                          />
+                          

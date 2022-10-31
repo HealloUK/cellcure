@@ -22,7 +22,7 @@ const NewsDetails = ({
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><Link to="/">Home</Link></li>
-            <li class="breadcrumb-item"><Link href={type == "disease" ? "/diseases" : "/blog"}>{type == "disease" ? "Diseases" : "Blog"}</Link></li>
+            <li class="breadcrumb-item"><Link to={type == "disease" ? "/diseases" : "/blog"}>{type == "disease" ? "Diseases" : "Blog"}</Link></li>
             <li class="breadcrumb-item active" aria-current="page">{title}</li>
           </ol>
         </nav>

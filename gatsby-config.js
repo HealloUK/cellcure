@@ -6,7 +6,6 @@ module.exports = {
   },
   trailingSlash: "never",
   plugins: [
-    "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-sass",
       options: {

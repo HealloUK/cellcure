@@ -2,10 +2,11 @@ import React from "react";
 import Layout from "../../components/Layout";
 import NavOne from "../../components/NavOne";
 import Footer from "../../components/Footer";
+import Seo from "../../components/Seo";
 
 // eslint-disable-next-line
 export default () => (
-  <Layout pageTitle="Thank You">
+  <Layout>
             <NavOne />
             <div className="text-center" style={{ minHeight: "750px", marginTop: "200px" }}>
             <h1>Thank you!</h1>
@@ -14,3 +15,8 @@ export default () => (
             <Footer />
   </Layout>
 );
+
+export const Head = ({location}) => <Seo 
+                            title="Thank You"
+                            location={location.pathname}
+                          />

@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Footer from "../components/Footer";
 import News from "../components/News";
+import Seo from '../components/Seo';
 
 class TagRoute extends React.Component {
   render() {
@@ -22,7 +23,7 @@ class TagRoute extends React.Component {
     } tagged with “${tag}”`;
 
     return (
-      <Layout pageTitle={tag}>
+      <Layout>
             <NavOne />
             <News posts= { posts } pageContext= {pageContext} pagination= {false}/>
             <Footer />
@@ -55,3 +56,8 @@ export const tagPageQuery = graphql`
     }
   }
 `;
+
+export const Head = ({location, pageContext}) => <Seo 
+                            title={pageContext.tag}
+                            location={location.pathname}
+                          />

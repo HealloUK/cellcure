@@ -4,6 +4,7 @@ import Layout from "../../components/Layout";
 import NavOne from "../../components/NavOne";
 import Contact from "../../components/Contact";
 import Footer from "../../components/Footer";
+import Seo from "../../components/Seo";
 
 function encode(data) {
   return Object.keys(data)
@@ -39,7 +40,7 @@ export default class Index extends React.Component {
 
   render() {
     return (
-      <Layout pageTitle="Contact Us">
+      <Layout>
             <NavOne />
             <Contact handleChange={this.handleChange} handleSubmit={this.handleSubmit} isLoading={this.state.isLoading}  />
             <Footer />
@@ -47,3 +48,8 @@ export default class Index extends React.Component {
     );
   }
 }
+
+export const Head = ({location}) => <Seo 
+                            title="Contact Us"
+                            location={location.pathname}
+                          />
