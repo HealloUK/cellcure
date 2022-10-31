@@ -87,6 +87,7 @@ module.exports = {
           "/admin",
           "/tags",
           "/contact/thanks",
+          "/offline-plugin-app-shell-fallback",
           "/404",
           "/404.html",
         ]
