@@ -104,7 +104,7 @@ const CourseList = () => {
                 />
             <h2 class="disease__item-title">Neurological diseases</h2>
             <ul class="disease__item-list">
-              <li><span>Autism Treatment with Stem Cells</span></li>
+              <li><Link to="/autism-treatment-with-stem-cells">Autism Treatment with Stem Cells</Link></li>
               <li><span>Stem Cell Therapy for Spinal Cord Injuries</span></li>
               <li><Link to="/multiple-sclerosis-treatment-with-stem-cells">Multiple Sclerosis Treatment with Stem Cells</Link></li>
               <li><span>Stem Cell Therapy for Cerebral Palsy</span></li>
